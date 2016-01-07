@@ -1,11 +1,12 @@
+/**
+ * 
+ * Bubble Sort Algorithm 
+ * 
+ **/
+
 import java.util.Arrays;
 
-
 public class BubbleSort implements Sorting{
-
-	public BubbleSort() {
-
-	}
 
 	public void sort(int[] Array) {
 		
@@ -29,10 +30,13 @@ public class BubbleSort implements Sorting{
 			}
 			
 			if(exchanges == 0){
+				
 				pass = false;
+				
 			}
 			
 		}
+		
 		System.out.println("Here is your list, after it is sorted, using the Bubble Sorting Algorithm.");
 		System.out.println(Arrays.toString(Array));
 	}
