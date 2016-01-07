@@ -1,6 +1,11 @@
 
-// this algorithm searches through the list by starting at the middle, comparing if the middle element is what
-// user if looking for, if not move down or up the list depending on whether it is smaller or bigger than.
+/**
+ * 
+ * This algorithm searches through the list by starting at the middle, comparing if the middle element is what
+ * user is looking for, if not move down or up the list depending on whether it is smaller or bigger than element it
+ * is currently at.
+ * 
+ **/
 
 public class BinarySearch implements Searching{
 
